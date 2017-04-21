@@ -1,0 +1,20 @@
+{
+  "name": "rberwald-credentials",
+  "version": "1.0.0",
+  "author": "rberwald",
+  "summary": "Module to manage individual credentials that live in the users home-directory",
+  "license": "Apache-2.0",
+  "source": "https://github.com/rberwald/rberwald-credentials",
+  "project_page": "https://github.com/rberwald/rberwald-credentials",
+  "issues_url": "https://github.com/rberwald/rberwald-credentials/issues",
+  "dependencies": [
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.4.0 <5.0.0"
+    }
+  ],
+  "data_provider": "hiera"
+}
+

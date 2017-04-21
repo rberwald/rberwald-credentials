@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PATH=/opt/puppetlabs/puppet/bin:$PATH
+
+bundle install
+
+bundle exec rake spec_clean
+bundle exec rake spec_prep
+bundle exec rake validate
+bundle exec rake test

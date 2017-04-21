@@ -1,0 +1,6 @@
+---
+credentials::users: {}
+
+lookup_options:
+  crdentials::users:
+    merge: deep
